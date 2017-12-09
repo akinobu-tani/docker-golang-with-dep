@@ -12,5 +12,3 @@ RUN cd /usr/local/bin/ && \
     wget https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 && \
     mv dep-linux-amd64 dep && \
     chmod 775 dep
-
-RUN apk del .build-deps
